@@ -65,13 +65,13 @@ var linhaDF = guia.getActiveCell().getRow();
         }else{
           guia.getRange(linhaDF, 4).setValue("");
           var pegarLinha = guia.getActiveCell().getRow();
-          var tralala = pegarLinha + 1;
-          var proproproC = "C" + tralala;
-          var proproproA = "A" + tralala;
-          var proproproB = "B" + tralala;
-          guia.getRange(proproproC).setValue("");
-          guia.getRange(proproproA).setValue("");
-          guia.getRange(proproproB).setValue("");
+          var teste = pegarLinha + 1;
+          var testeC = "C" + teste;
+          var testeA = "A" + teste;
+          var testeB = "B" + teste;
+          guia.getRange(testeC).setValue("");
+          guia.getRange(testeA).setValue("");
+          guia.getRange(testeB).setValue("");
 
       }
   }
